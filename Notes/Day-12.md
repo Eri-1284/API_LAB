@@ -1,4 +1,4 @@
-# Beyond the Token: Hunting for OAuth Logic Flaws
+# Day — 12 Beyond the Token: Hunting for OAuth Logic Flaws
 
 ## 1. The Trust Boundary Mess
 - **Actions:** Looked at the three-way relationship between the App, the Auth Server, and the API to find where the "Trust" breaks.
