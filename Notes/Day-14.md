@@ -1,4 +1,4 @@
-# Day 13 — Redirect URI Abuse: Stealing Tokens Without Touching the API
+# Day 14 — Redirect URI Abuse: Stealing Tokens Without Touching the API
 
 ## 1. Why Redirects are a Big Deal
 - **Actions:** Looked at how OAuth uses Redirect URIs to send back codes and tokens.
