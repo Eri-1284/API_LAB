@@ -1,4 +1,6 @@
-## 1. POST Request
+# Day 3 - POST Requests, Request Bodies & State Change
+
+## 1. Understand POST Request
 - **Actions:** Used POST requests to create or modify resources on the server instead of just reading them.
 - **Actions:** Sent data in the HTTP body rather than placing it in the URL.
 - **Outcome:** Confirmed that POST is designed specifically for operations that change application state.
