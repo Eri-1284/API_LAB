@@ -1,4 +1,4 @@
-# Testing OAuth: Messing with Tokens in Burp
+# Day 13 — Testing OAuth: Messing with Tokens in Burp
 
 ## 1. The Pentester Mindset: One Change at a Time
 - **Actions:** Captured a clean API request with a working Bearer token to use as my "source of truth."
