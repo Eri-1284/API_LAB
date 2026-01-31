@@ -1,4 +1,4 @@
-# Day 5 — Step-by-Step API Authentication Auditing
+# Day 05 — Step-by-Step API Authentication Auditing
 
 ## Phase 1: Identity Discovery
 - **Actions:** Captured authenticated traffic in the proxy to identify the token’s format and structure.
