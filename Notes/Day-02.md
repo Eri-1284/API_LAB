@@ -1,4 +1,4 @@
-# Day 2 — Practical API Request Control (Burp Workflow)
+# Day 02 — Practical API Request Control (Burp Workflow)
 
 ## 1. Header Control: Probing Server Reliance
 - **Actions:** The `User-Agent` string was replaced with a custom, non-standard identifier.
