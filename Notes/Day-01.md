@@ -1,4 +1,4 @@
-# Day 1: API Fundamentals & Initial Python Implementation
+# Day 01: API Fundamentals & Initial Python Implementation
 
 ## Core Concepts Covered
 - API architecture and endpoint functionality
