@@ -1,4 +1,4 @@
-# Day 9 — API Security Assessment: GraphQL Authorization
+# Day 09 — API Security Assessment: GraphQL Authorization
 
 ## 1. Object-Level Access Control Audit
 - *Actions:* Performed BOLA testing by manipulating query arguments in Burp Repeater.
