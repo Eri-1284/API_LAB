@@ -1,4 +1,4 @@
-# Day 3 - POST Requests, Request Bodies & State Change
+# Day 03 - POST Requests, Request Bodies & State Change
 
 ## 1. Understand POST Request
 - **Actions:** Used POST requests to create or modify resources on the server instead of just reading them.
