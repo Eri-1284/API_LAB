@@ -1,4 +1,4 @@
-# Day 4 — Manual API Security Assessment Workflow
+# Day 04 — Manual API Security Assessment Workflow
 
 ## 1. Attack Surface Mapping (Proxy)
 - **Actions:** Utilized the Burp proxy to intercept and log all traffic between the source and destination.
