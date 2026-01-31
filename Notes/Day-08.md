@@ -1,4 +1,4 @@
-# Day 8 — Practical GraphQL Discovery & Introspection
+# Day 08 — Practical GraphQL Discovery & Introspection
 
 ## 1. Endpoint Identification
 - **Actions:** Scanned for standard GraphQL endpoints such as `/api/graphql`, `/v1/graphql`.
