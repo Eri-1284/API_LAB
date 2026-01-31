@@ -1,4 +1,4 @@
-# Day 6 — Practical JWT Decoding & Inspection
+# Day 06 — Practical JWT Decoding & Inspection
 
 ## 1. JWT Structure Verification
 - **Actions:** Decoded live JWTs using Python/CLI tools to reveal header and payload data.
