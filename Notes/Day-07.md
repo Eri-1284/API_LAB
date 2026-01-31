@@ -1,4 +1,4 @@
-# Day 7 — API Security: JWT Logic & Claim Abuse Analysis
+# Day 07 — API Security: JWT Logic & Claim Abuse Analysis
 
 ## 1. Vulnerability Surface Assessment
 - **Actions:** Evaluated how heavily the API relies on client-side JWT claims instead of server-side session state.
