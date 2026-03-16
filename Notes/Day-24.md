@@ -1,9 +1,4 @@
-# Day 23: Endpoint Enumeration
-
-## Summary:
-This module delineates the transition from passive reconnaissance to active, structured endpoint enumeration within a professional API penetration testing engagement. We move beyond "blind fuzzing" to establish a systematic methodology for mapping an API's logical surface. By analyzing traffic patterns, client-side code leaks, and versioning inconsistencies, we construct a high-fidelity attack surface map. This architectural overview focuses on how structured discovery serves as the prerequisite for identifying critical vulnerabilities like BOLA, BFLA, and Improper Assets Management.
-
----
+# Day 24: API Discovery & Enumeration Target Matrix
 
 ## I. The Architectural Philosophy of Enumeration
 
@@ -47,7 +42,6 @@ Testing for predictable sequences in object identifiers. If an API uses incremen
    - GET /api/orders/ORD-2025-000124  
    - GET /api/orders/ORD-2025-000125
 
-- Formula: If $ID_{next} = ID_{current} + 1$, the API is susceptible to mass enumeration, leading directly to Broken Object Level Authorization (BOLA).
 
 ### 3. Functional & Endpoint Enumeration
 
@@ -140,3 +134,8 @@ Skipping structured enumeration results in a "Blind Attack," which is noisy and 
 | API1:2023 Broken Object Level Authorization | Predictable ID enumeration ($ID+1$) provides the target for BOLA. |
 | API9:2023 Improper Assets Management | Discovery of /v1/, /debug/, or /test/ endpoints that should have been retired. |
 | API10:2023 Unsafe Consumption of APIs | Identifying internal or third-party endpoints exposed through logical probing. |
+
+---
+
+## Summary:
+This module delineates the transition from passive reconnaissance to active, structured endpoint enumeration within a professional API penetration testing engagement. We move beyond "blind fuzzing" to establish a systematic methodology for mapping an API's logical surface. By analyzing traffic patterns, client-side code leaks, and versioning inconsistencies, we construct a high-fidelity attack surface map. This architectural overview focuses on how structured discovery serves as the prerequisite for identifying critical vulnerabilities like BOLA, BFLA, and Improper Assets Management.
