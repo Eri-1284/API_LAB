@@ -34,9 +34,9 @@ The objective is to confirm the existence of valid accounts.
 
 -	**Technical Execution:**
 
-- GET /api/users/1 returns 200 OK (User Exists).  
-               - GET /api/users/9999 returns 404 Not Found (User Missing).  
-               - GET /api/users?email=admin@company.com reveals if an email is registered before attempting a brute-force or password reset attack.
+   - GET /api/users/1 returns 200 OK (User Exists).  
+   - GET /api/users/9999 returns 404 Not Found (User Missing).  
+   - GET /api/users?email=admin@company.com reveals if an email is registered before attempting a brute-force or password reset attack.
 
 ### 2. Object & Resource Enumeration (The BOLA Foundation)
 
@@ -44,8 +44,8 @@ Testing for predictable sequences in object identifiers. If an API uses incremen
 
 - Examples:
 
-         - GET /api/orders/ORD-2025-000124  
-         - GET /api/orders/ORD-2025-000125
+   - GET /api/orders/ORD-2025-000124  
+   - GET /api/orders/ORD-2025-000125
 
 - Formula: If $ID_{next} = ID_{current} + 1$, the API is susceptible to mass enumeration, leading directly to Broken Object Level Authorization (BOLA).
 
@@ -55,10 +55,10 @@ Discovering routes that are not explicitly documented but remain active in the b
 
 - Target Paths:
 
-         - /api/v1 (Current)  
-         - /api/v2 (Beta)  
-         - /api/admin (Privileged)  
-         - /internal/debug (Development leaks)
+   - /api/v1 (Current)  
+   - /api/v2 (Beta)  
+   - /api/admin (Privileged)  
+   - /internal/debug (Development leaks)
 
 ### 4. Parameter & State Enumeration
 
@@ -115,7 +115,7 @@ A Senior Consultant avoids "blind fuzzing" (randomly guessing words from a list)
 
 2.	JavaScript Static Analysis: Deep-diving into .js bundles. Modern SPAs (React/Angular) often contain hardcoded API routes for features not yet released or for administrative panels.
 
-              - Search Strategy: Grep for const API_URL, /v1/, or apiKey.
+   - Search Strategy: Grep for const API_URL, /v1/, or apiKey.
 
 3.	Logical Version Manipulation: Testing for "Ghost APIs."
 
@@ -127,9 +127,9 @@ A Senior Consultant avoids "blind fuzzing" (randomly guessing words from a list)
 
 Skipping structured enumeration results in a "Blind Attack," which is noisy and ineffective. Systematic enumeration converts an Unknown System into a Mapped Attack Surface.
 
-     - Risk Mitigation: It identifies Improper Assets Management (API9) by finding forgotten or unpatched endpoints.
+   - Risk Mitigation: It identifies Improper Assets Management (API9) by finding forgotten or unpatched endpoints.
 
-     - Exploitation Preparation: It provides the "Valid IDs" necessary to test for BOLA and the "Admin Paths" necessary for BFLA.
+   - Exploitation Preparation: It provides the "Valid IDs" necessary to test for BOLA and the "Admin Paths" necessary for BFLA.
 
 ---
 
