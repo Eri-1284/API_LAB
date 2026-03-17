@@ -1,4 +1,4 @@
-# Day 25: Exploiting API9 — Breaking Version Parity & Asset Discovery
+# Day 25: Shadow Surface: Versioning & Deprecated Routes
 
 ## I. The Architectural Necessity of Versioning
 In modern software development, APIs are not static. To avoid breaking downstream integrations (mobile apps, third-party partners, or legacy microservices), developers implement versioning. This allows the API to evolve without forcing an immediate upgrade on all clients.
