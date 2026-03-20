@@ -25,7 +25,8 @@ Consider a standard e-commerce flow:
 This occurs when the API trusts the client to define the value of a transaction.
 - Vulnerable Request:
 **JSON**
-```{
+```
+{
   "item_id": "WS-99",
   "quantity": 1,
   "price_per_unit": 0.01 
