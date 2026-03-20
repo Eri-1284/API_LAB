@@ -30,6 +30,7 @@ This occurs when the API trusts the client to define the value of a transaction.
   "quantity": 1,
   "price_per_unit": 0.01 
 }
+```
 - The Logic Error: The server should retrieve the price from a trusted internal database, not from the user's JSON payload.
 
 ### 2. Numerical Boundary Abuse
@@ -77,5 +78,5 @@ The Consultant's approach to finding logic flaws is a structured "What If?" anal
 
 ---
 
-###Summary
+### Summary
 This module pivots from technical vulnerabilities to Business Logic Flaws (BLF), representing the "expensive" end of the exploit spectrum. Students will learn that an API can be technically perfect—free of injections and with valid schemas—yet remain critically vulnerable if its workflow can be subverted. This session focuses on the systematic analysis of state machines and the identification of trust boundaries where an API incorrectly relies on client-side integrity to enforce business rules.
