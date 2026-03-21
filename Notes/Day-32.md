@@ -1,4 +1,4 @@
-Day 32: Turning IDOR into Full System Compromise
+# Day 32: Turning IDOR into Full System Compromise
 
 ### Lesson Context:
 We are moving from the "What" to the "So What?" Day 32 focuses on Impact Amplification. In a professional engagement, simply finding a Broken Object Level Authorization (BOLA) bug is only half the job. A Senior Consultant's value lies in demonstrating how a "low-stakes" data leak can be chained to achieve Account Takeover (ATO), Financial Fraud, or Systemic Denial of Service. We are mapping this to the intersection of OWASP API1 (BOLA) and API5 (BFLA) to prove that one open window can lead to the entire house being emptied.
