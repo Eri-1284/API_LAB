@@ -9,13 +9,16 @@ An isolated BOLA (reading a user's email) is an invasion of privacy. A BOLA chai
 
 ## II. Scenario #1: The "Identity Theft" Chain (BOLA + Auth)
 This is the most common path to full account compromise. It exploits the "Excessive Data Exposure" of one endpoint to feed a "Broken Authentication" flaw in another.
+  
   1.	Stage 1: The Leak (API3/API1)
   - Action: GET /api/v1/users/102
   - Discovery: The response includes the victim's email and a secret_security_answer.
-  3.	Stage 2: The Trigger (API2)
+ 
+  2.	Stage 2: The Trigger (API2)
   - Action: POST /api/v1/auth/forgot-password
   - Discovery: The API asks for the security answer found in Stage 1.
-  4.	Stage 3: The Takeover
+  
+  3.	Stage 3: The Takeover
   - Action: Submit the leaked answer and set a new password.
 
 ---
